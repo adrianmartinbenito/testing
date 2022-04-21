@@ -1,0 +1,11 @@
+Se priorizan las tareas que realiza el proyecto y se tienen en cuenta para realizar el testing de la siguiente manera:
+  1.- function sumar()
+  2.- funcition restar()
+  3.- function multiplicar()
+  4.- function dividir()
+  5.- Validar inputs
+  6.- Comprobar operación seleccionada
+  7.- Aproximar decimales
+  8.- División entre 0
+  9.- Maximos y minimos
+Se decide esta priorización basandose en la complejidad de las funciones.

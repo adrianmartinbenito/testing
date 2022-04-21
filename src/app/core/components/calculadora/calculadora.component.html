@@ -1,0 +1,35 @@
+<form [formGroup]="numerosForm">
+  <label>Primer Numero</label>
+  <input formControlName="a">
+  <label>Segundo Numero</label>
+  <input formControlName="b">
+
+</form>
+<div>
+  <p>Sumar</p>
+  <p class="resultadoSuma">{{this.suma}}</p>
+  <button class="botonSumar" (click)="funcionSumar()">
+    Suma
+  </button>
+</div>
+<div>
+  <p>Restar</p>
+  <p class="resultadoResta">{{this.resta}}</p>
+  <button class="botonRestar" (click)="funcionRestar()">
+    Resta
+  </button>
+</div>
+<div>
+  <p>Multiplicar</p>
+  <p class="resultadoMultiplicacion">{{this.multiplicacion}}</p>
+  <button class="botonMultiplicar" (click)="funcionMultiplicar()">
+    Multiplica
+  </button>
+</div>
+<div>
+  <p>Dividir</p>
+  <p class="resultadoDivision">{{this.division}}</p>
+  <button class="botonDividir" (click)="funcionDividir()">
+    Divide
+  </button>
+</div>

@@ -1,7 +1,10 @@
+import { CalculadoraComponent } from './core/components/calculadora/calculadora.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path: '', component: CalculadoraComponent }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
